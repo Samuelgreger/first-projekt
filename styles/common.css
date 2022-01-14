@@ -1,0 +1,22 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #cccccc;
+}
+
+.link-nav {
+    color: black;
+    text-decoration: none;
+}
+
+.link-nav:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.test {
+    background-image: url("img/Farbwolke-header.jpg");
+}
