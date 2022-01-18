@@ -2,13 +2,37 @@
     box-sizing: border-box;
 }
 
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.page-cover {
+    padding: 0;
+    margin: 0;
+}
+
 header {
-    background-color: #cccccc;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    padding-bottom: 15%;
+    margin-bottom: 3%;
+}
+
+.margin-l-r {
+    margin: 0 2rem 0 2rem
+}
+
+.sticky {
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .link-nav {
-    color: black;
+    color: white;
     text-decoration: none;
+    font-size: calc(1rem + 1vw)
 }
 
 .link-nav:hover {
@@ -17,6 +41,25 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.test {
-    background-image: url("img/Farbwolke-header.jpg");
+.headline {
+    font-size:calc(2vw + 1em);
+} 
+
+.main-headline {
+    font-size: calc(5vw + 1em);
+    color: white
 }
+
+/* scrolable
+add classList 
+navbar fixed-top navbar-light
+*/
+
+/* main {
+    margin: 10px 15px 20px 25px;
+}
+
+.max-width {
+    max-width: 800px;
+    margin: auto;
+} */
